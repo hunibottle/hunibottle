@@ -2,8 +2,11 @@
 Hi there 👋
 
 Good day! I am Byeounghun Kim who is Beginner developer from South Korea.
+
 I graduated from Myongji Univ 👨‍🎓, information & communication Engineering.
+
 Currently, I am listening to hyundai IT&E education.
+
 Study With Me 🙋‍♂️
 
 [![hunibottle's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
