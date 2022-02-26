@@ -17,3 +17,5 @@
 ![ApacheTomcat](https://img.shields.io/badge/ApacheTomcat-F8DC75?style=flat-square&logo=ApacheTomcat&logoColor=black)
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
