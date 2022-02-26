@@ -1,5 +1,5 @@
 # KIM BYEOUNG HUN 👊
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
+[![hunibottle's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
 # 💪Skills
 ### Platforms & Languages
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
@@ -19,4 +19,3 @@
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=black)
 ![ApacheTomcat](https://img.shields.io/badge/ApacheTomcat-F8DC75?style=flat-square&logo=ApacheTomcat&logoColor=black)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
