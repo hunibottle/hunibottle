@@ -6,6 +6,9 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=black)
 ![C](https://img.shields.io/badge/Language-A8B9CC?style=flat-square&logo=C&logoColor=black)
 
+![VisualStudioCode](https://img.shields.io/badge/VisualStudioCide-007ACC?style=flat-square&logo=VisualStudioCideJ&logoColor=black)
+![Eclipse](https://img.shields.io/badge/Language-A8B9CC?style=flat-square&logo=C&logoColor=black)
+
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=black)
 ![Android_Studio](https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat-square&logo=AndroidStudio&logoColor=black)
 
