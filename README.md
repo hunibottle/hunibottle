@@ -7,7 +7,7 @@
 ![C](https://img.shields.io/badge/Language-A8B9CC?style=flat-square&logo=C&logoColor=black)
 
 
-![Eclipse](https://img.shields.io/badge/Eclipse-782A90?style=flat-square&logo=Eclipse&logoColor=black)
+![Eclipse](https://img.shields.io/badge/Eclipse-A100FF?style=flat-square&logo=Eclipse&logoColor=black)
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=black)
 ![Android_Studio](https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat-square&logo=AndroidStudio&logoColor=black)
