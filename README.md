@@ -4,7 +4,7 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=black)
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=black)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=CLanguage&logoColor=black)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=wfmemfewmf&logoColor=black)
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=black)
 ![Android_Studio](https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat-square&logo=AndroidStudio&logoColor=black)
