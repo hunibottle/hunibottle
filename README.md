@@ -11,7 +11,7 @@ Study With Me 🙋‍♂️
 
 # 💪Skills
 ### Platforms & Languages
-<div align="right">
+<div align=right>
 [![hunibottle's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
 </div>
 
