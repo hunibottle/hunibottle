@@ -1,6 +1,6 @@
-
-# 💪Skills
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=hunibottle%20Log&fontSize=90)
+# 💪Skills
+### Platforms & Languages
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=black)
