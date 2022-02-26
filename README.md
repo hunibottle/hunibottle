@@ -1,4 +1,4 @@
-# KIM BYEOUNG HUN
+# KIM BYEOUNG HUN 👊
 # 💪Skills
 ### Platforms & Languages
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
