@@ -8,7 +8,7 @@
 
 
 ![Eclipse](https://img.shields.io/badge/Eclipse-A100FF?style=flat-square&logo=Eclipse&logoColor=black)
-![VSC](https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=black)
+![VSC](https://img.shields.io/badge/VisualStudioCode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=black)
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=black)
 ![Android_Studio](https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat-square&logo=AndroidStudio&logoColor=black)
