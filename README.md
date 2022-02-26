@@ -12,7 +12,7 @@ Study With Me 🙋‍♂️
 # 💪Skills
 ### Platforms & Languages
   
-![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)[![hunibottle's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=black)
 
@@ -28,7 +28,5 @@ Study With Me 🙋‍♂️
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=black)
 ![ApacheTomcat](https://img.shields.io/badge/ApacheTomcat-F8DC75?style=flat-square&logo=ApacheTomcat&logoColor=black)
-
-        [![hunibottle's GitHub stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
 
 
