@@ -9,6 +9,8 @@ Currently, I am listening to hyundai IT&E education.
 
 Study With Me 🙋‍♂️
 
+#### - 📮 My Email : kimbyeounghoon@naver.com
+
 # 💪Skills
 ### Platforms & Languages
 
