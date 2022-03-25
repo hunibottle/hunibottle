@@ -31,7 +31,7 @@ Study With Me 🙋‍♂️
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=black)
 ![ApacheTomcat](https://img.shields.io/badge/ApacheTomcat-F8DC75?style=flat-square&logo=ApacheTomcat&logoColor=black)
-![Spring](https://img.shields.io/badge/ApacheTomcat-6DB33F?style=flat-square&logo=Spring&logoColor=black)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=black)
 
 # 👍My Stats
 
