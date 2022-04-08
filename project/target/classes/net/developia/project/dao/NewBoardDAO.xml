@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.developia.project.dao.NewBoardDAO">
+	<select id="getNewBoardList" parameterType="long" resultType="NewBoardDTO">
+	 SELECT 
+ 		 ROWNUM
+		,REGDATE
+		,NO
+		,NAME
+		FROM (
+	 			SELECT ROWNUM AS row_num
+				,pb.REGDATE
+				,pb.NO
+				,pb.NAME
+ 		FROM (
+	 			SELECT * FROM NEW_BOARD_T
+ 	 			ORDER BY REGDATE DESC
+		) pb)
+	</select>
+	
+	<insert id="insertNewBoard" parameterType="NewBoardDTO">
+		INSERT INTO NEW_BOARD_T (no,name,REGDATE)
+		VALUES(NEW_BOARD_T_NO_SEQ.nextval,#{name},sysdate)
+	</insert>
+	
+</mapper>

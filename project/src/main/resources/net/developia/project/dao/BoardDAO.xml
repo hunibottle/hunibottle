@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.developia.project.dao.BoardDAO">
+	<insert id="insertBoard" parameterType="BoardDTO">
+	INSERT INTO board_t(new_no,no, title, name, password, content)
+	VALUES(#{new_no},board_t_no_seq.nextval, #{title}, #{name}, #{password}, #{content})
+	</insert>
+	
+	<select id="getBoardList" resultType="BoardDTO">
+	SELECT
+	    NO,
+	    title,
+	    NAME,
+	    regdate,
+	    readcount
+	FROM
+	    board_t
+	ORDER BY NO DESC
+	</select>
+	
+	<select id="getBoardListPage" resultType="BoardDTO">
+	SELECT B.*
+		FROM (SELECT  rownum AS rnum , A.*
+		      FROM(SELECT  
+		      			bt.NO,
+		    			bt.title,
+		    			bt.NAME,
+		    			bt.regdate,
+		    			bt.readcount
+			         FROM board_t bt,
+						  NEW_board_t nt
+					 WHERE bt.new_no = nt.no
+					 AND bt.new_no=#{new_no}
+		             ORDER  BY bt.regdate DESC) A) B
+		WHERE rnum BETWEEN #{startNum} AND #{endNum}
+	</select>
+	
+	<select id="getDetail" parameterType="long" resultType="BoardDTO">
+	SELECT
+	    NO,
+	    title,
+	    NAME,
+	    CONTENT,
+	    regdate,
+	    readcount
+	FROM
+	    board_t
+	WHERE
+		no = #{no}
+	</select>
+	
+	<update id="updateReadcount" parameterType="long">
+	UPDATE board_t SET readcount=readcount+1 WHERE no=#{no}
+	</update>
+	
+	<delete id="deleteBoard" parameterType="BoardDTO">
+	DELETE board_t
+	WHERE  no=#{no} AND password=#{password}
+	</delete>
+	
+	<update id="updateBoard" parameterType="BoardDTO">
+	UPDATE board_t SET
+	       title=#{title},
+	       name =#{name},
+	       content=#{content}
+	WHERE  no=#{no} AND password=#{password}
+	</update>
+	
+	<select id="getBoardCount" resultType="long">
+	SELECT count(*) as cnt 
+	FROM   board_t
+	WHERE  new_no=#{new_no}
+	</select>
+</mapper>

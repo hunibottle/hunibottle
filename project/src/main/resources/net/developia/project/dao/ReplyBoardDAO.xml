@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.developia.project.dao.ReplyBoardDAO">
+	<insert id = "replyInsert" parameterType = "ReplyBoardDTO">
+		insert into reply_board_t(re_no,seq_first,re_context, name, regdate)
+	    values(#{re_no},reply_board_t_no_seq.nextval, #{re_context}, #{name}, sysdate)	
+	</insert>
+	
+	
+	<select id ="replyList" parameterType="long" resultType= "ReplyBoardDTO">
+		SELECT 
+			re_no
+			,name
+			,re_context
+			,regdate
+				FROM reply_board_t
+				WHERE re_no =${re_no}
+				ORDER BY SEQ_FIRST ASC
+	</select>
+	
+</mapper>

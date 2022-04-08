@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<bean 
+      id="dataSource"
+      class="com.zaxxer.hikari.HikariDataSource"
+      p:username="bangbang"
+      p:password="me"
+      p:jdbcUrl="jdbc:log4jdbc:oracle:thin:@100.98.230.86:1521/xepdb1"
+      p:driverClassName="net.sf.log4jdbc.DriverSpy"
+      p:maximumPoolSize="20"
+      />
+
+	<bean id="boardSqlSession"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="typeAliasesPackage"
+			value="net.developia.project.dto"></property>
+	</bean>
+	
+	<bean id="newboardSqlSession"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="typeAliasesPackage"
+			value="net.developia.project.dto"></property>
+	</bean>
+
+	<bean id="boardDAO"
+		class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="sqlSessionFactory" ref="boardSqlSession"></property>
+		<property name="mapperInterface"
+			value="net.developia.project.dao.BoardDAO"></property>
+	</bean>
+	
+	<bean id="newboardDAO"
+		class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="sqlSessionFactory" ref="newboardSqlSession"></property>
+		<property name="mapperInterface"
+			value="net.developia.project.dao.NewBoardDAO"></property>
+	</bean>
+	
+	<bean id="replyboardSqlSession"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+		<property name="typeAliasesPackage"
+			value="net.developia.project.dto"></property>
+	</bean>
+	
+	
+	<bean id="replyboardDAO"
+		class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="sqlSessionFactory" ref="replyboardSqlSession"></property>
+		<property name="mapperInterface"
+			value="net.developia.project.dao.ReplyBoardDAO"></property>
+	</bean>
+	
+	
+	
+</beans>
