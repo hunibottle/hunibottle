@@ -35,4 +35,4 @@ Study With Me 🙋‍♂️
 [![hunibottle's github stats](https://github-readme-stats.vercel.app/api?username=hunibottle)](https://github.com/hunibottle/github-readme-stats)
 
 # 👍Baekjoon
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=qudgns133)](https://solved.ac/profile/qudgns133)
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={qudgns133})](https://solved.ac/{qudgns133})
