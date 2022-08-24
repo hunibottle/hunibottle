@@ -5,7 +5,9 @@ Good day! I am Byeounghun Kim who is Beginner developer from South Korea.
 
 I graduated from Myongji Univ 👨‍🎓, information & communication Engineering.
 
-Currently, I am listening to hyundai IT&E education.
+previously, I am listening to hyundai IT&E education.
+
+Currently, i am doing an internship at KT HCN.
 
 Study With Me 🙋‍♂️
 
