@@ -22,7 +22,7 @@ Study With Me 🙋‍♂️
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=black)
 
 ![Eclipse](https://img.shields.io/badge/Eclipse-A100FF?style=flat-square&logo=Eclipse&logoColor=black)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000?style=flat-square&logo=IntelliJIDEA&logoColor=black)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-666666?style=flat-square&logo=IntelliJIDEA&logoColor=black)
 ![VSC](https://img.shields.io/badge/VisualStudioCode-007ACC?style=flat-square&logo=VisualStudioCode&logoColor=black)
 
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=black)
